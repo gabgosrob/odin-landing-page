@@ -1,4 +1,176 @@
-* {
+html,
+body {
+    height: 100%; 
+    width: 100%;
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    color: white;
+    text-shadow: black 1px 1px;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.title {
+    flex: 1;
+    color: greenyellow;
+    text-shadow: black 2px 2px;
+    font-size: 230%;
+    font-weight: bolder;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 15px;
+}
+
+.message p {
+    max-width: 450px;
+}
+
+.welcome img {
+    width: 170px;
+    height: auto;
+}
+
+/* CONTENT */
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(153, 255, 0, 0);
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 64px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.champion-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+}
+
+.champion-text {
+    width: 160px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 15px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    max-width: 600px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 45px;
+    padding: 20px;
+    border: black solid;
+    border-width: 4px;
+    border-radius: 15px;
+    background-color: greenyellow;
+}
+
+.signup-button {
+    flex-shrink: 0;
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 30px;
+    border-width: 5px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    gap: 5px;
+    color: black;
+    width: 100%;
+}
+
+footer img {
+    width: 25px;
+}
+
+.credits a {
+    text-decoration: underline;
 }
