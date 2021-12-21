@@ -4,7 +4,7 @@ HTML/CSS only web page project for The Odin Project.
 
 ## Skills Learned
 
-### Advanced CSS
+### More CSS
 This project allowed me to dive deeper into CSS, learning about more obscure properties and the way they affect the rendered web page.
 
 ### Flexbox
