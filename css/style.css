@@ -36,21 +36,32 @@ header {
     padding-bottom: 80px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    border-bottom: rgb(0, 100, 0) solid;
+    margin-bottom: 40px;
+}
+
 nav {
     display: flex;
     align-items: center;
-    gap: 16px;
+    flex-wrap: wrap;
+    column-gap: 200px;
     padding: 5px 15px;
-    margin-bottom: 40px;
-    border-bottom: rgb(0, 100, 0) solid;
+    
 }
 
 .title {
-    flex: 1;
     color: greenyellow;
     text-shadow: black 2px 2px;
     font-size: 300%;
     font-weight: bold;
+}
+
+.navitems {
+    display: flex;
+    gap: 20px;
 }
 
 .welcome {
@@ -58,7 +69,8 @@ nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 150px;
+    column-gap: 150px;
+    row-gap: 50px;
     padding: 15px;
 }
 
