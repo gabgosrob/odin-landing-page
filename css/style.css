@@ -8,10 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Poppins;
 }
-
-p {}
 
 a {
     text-decoration: none;
@@ -20,6 +18,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
 }
 
 /* HEADER */
@@ -38,28 +40,36 @@ nav {
     display: flex;
     align-items: center;
     gap: 16px;
-    padding: 15px;
+    padding: 5px 15px;
     margin-bottom: 40px;
+    border-bottom: rgb(0, 100, 0) solid;
 }
 
 .title {
     flex: 1;
     color: greenyellow;
     text-shadow: black 2px 2px;
-    font-size: 230%;
-    font-weight: bolder;
+    font-size: 300%;
+    font-weight: bold;
 }
 
 .welcome {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 150px;
     padding: 15px;
 }
 
+.message h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
 .message p {
     max-width: 450px;
+    padding-bottom: 10px;
 }
 
 .welcome img {
